@@ -1,0 +1,8 @@
+https://github.com/facebook/react/tree/main
+- react library on github
+
+https://github.com/hiteshchoudhary/chai-aur-react
+- github repo for reference
+
+1) npm create vite@latest
+npm install tailwindcss @tailwindcss/vite
