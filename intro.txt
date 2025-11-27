@@ -5,4 +5,7 @@ https://github.com/hiteshchoudhary/chai-aur-react
 - github repo for reference
 
 1) npm create vite@latest
-npm install tailwindcss @tailwindcss/vite
+
+2) npm install tailwindcss @tailwindcss/vite
+index.css write @import "tailwindcss";
+and in vite.config.js import tailwindcss from '@tailwindcss/vite' // inside function plugin: [react(),tailwindcss()]
