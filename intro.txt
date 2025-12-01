@@ -9,3 +9,11 @@ https://github.com/hiteshchoudhary/chai-aur-react
 2) npm install tailwindcss @tailwindcss/vite
 index.css write @import "tailwindcss";
 and in vite.config.js import tailwindcss from '@tailwindcss/vite' // inside function plugin: [react(),tailwindcss()]
+
+3) context api (props drilling) is use to pass the data wihtout passing the data to a compont that was not use in his component 
+- example : <component1 className="1">
+                            <component2 className="2">
+                                <component3 props={props}/> // for passing the data to this component we need to pass the data to component 1 & 2 also so the component get the props to avoid this context api is there
+                            </component2>
+                        </component1>
+-other use full library : redux , redux toolkit , zustand , react-redux etc
