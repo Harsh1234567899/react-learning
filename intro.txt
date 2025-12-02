@@ -4,6 +4,10 @@ https://github.com/facebook/react/tree/main
 https://github.com/hiteshchoudhary/chai-aur-react
 - github repo for reference
 
+ --: in 09themeSwitcher get error for dark mode 
+for solution use postcss.config file and (npm install -D @tailwindcss/postcss) for use 
+and add in index.css file ( @custom-variant dark (&:where(.dark, .dark *)); )
+
 1) npm create vite@latest
 
 2) npm install tailwindcss @tailwindcss/vite
