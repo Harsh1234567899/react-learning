@@ -21,3 +21,9 @@ and in vite.config.js import tailwindcss from '@tailwindcss/vite' // inside func
                             </component2>
                         </component1>
 -other use full library : redux , redux toolkit , zustand , react-redux etc
+
+4) react project : 
+- npm install @reduxjs/toolkit react-redux react-router-dom appwrite @tinymce/tinymce-react html-react-parser react-hook-form 
+- (appwrite) for free backend 
+- (@tinymce/tinymce-react) for notpad text editer 
+- (react-hook-form) inbuild react form
