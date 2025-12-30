@@ -27,3 +27,4 @@ and in vite.config.js import tailwindcss from '@tailwindcss/vite' // inside func
 - (appwrite) for free backend 
 - (@tinymce/tinymce-react) for notpad text editer 
 - (react-hook-form) inbuild react form
+- (html-react-parser) for parshe the html code 
